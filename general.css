@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: black;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: 2px solid ;
+  border-radius: 5px;
+  padding: 0px 20px 0px 20px;
+  box-shadow: 3px 3px white;
+  transition: 0.3s;
+}
+
+.button1:active {
+  box-shadow: none;
+  translate: 2px 2px;
+  transition: 0.3s;
+}
+
+.click {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
